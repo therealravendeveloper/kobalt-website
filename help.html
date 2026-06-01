@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>We Need Your Help</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'DM Sans', Verdana, sans-serif;
+      padding: 40px 20px;
+    }
+
+    .video-window {
+      width: 320px;
+      margin-bottom: 32px;
+      background: #000;
+    }
+
+    .video-window video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .message {
+      max-width: 480px;
+      text-align: center;
+      font-family: 'DM Sans', Verdana, sans-serif;
+      font-weight: 400;
+      font-size: 85%;
+      line-height: 1.9;
+      color: #1a1a1a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="video-window">
+    <video autoplay loop muted playsinline>
+      <source src="stuff/bongo.mp4" type="video/mp4"/>
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <p class="message">
+    We need your help! if you are a Artist or anything who can make logo or Mascot,
+    Please make one of our Dear 'K'
+  </p>
+
+</body>
+</html>
